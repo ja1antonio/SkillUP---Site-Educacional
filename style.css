@@ -369,7 +369,6 @@ img {
     height: 100%;
     padding-top: 60px;
     z-index: 100;
-    transition: 0.3s;
   }
 
   .showMenu {
