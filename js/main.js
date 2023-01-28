@@ -25,6 +25,13 @@ if (navClose) {
   });
 }
 
+if (navOverlay) {
+  navOverlay.addEventListener('click', () => {
+    navMenu.classList.remove('showMenu');
+    navOverlay.classList.remove('showOverlay');
+  });
+}
+
 /*============== CHANGE BACKGROUND HEADER ==============*/
 
 function scrollHeader() {
